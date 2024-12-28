@@ -1,0 +1,37 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Example Script",
+		"description": "Made by Cennac",
+		"uuid": "d3106259-a87f-4d2e-852c-e9543c958c6d",
+		"version": [
+			1,
+			0,
+			0
+		],
+		"min_engine_version": [
+			1,
+			20,
+			30
+		]
+	},
+	"modules": [
+		{
+			"language": "javascript",
+			"type": "script",
+			"uuid": "c0697c97-d7ff-4116-b148-a6d8548fc6ab",
+			"version": [
+				1,
+				0,
+				0
+			],
+			"entry": "scripts/index.js"
+		}
+	],
+	"dependencies": [	
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.17.0-beta"
+		}
+	]
+}
